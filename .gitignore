@@ -1,3 +1,10 @@
+# Gulp files
+*.php
+js/*.js
+js/*.js.map
+css/*.css
+css/*.css.map
+
 # Logs
 logs
 *.log
