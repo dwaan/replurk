@@ -1,0 +1,252 @@
+.lost {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.lost .middle {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.lost .thumb {
+	display: flex;
+	flex: 40vh;
+}
+.lost .text {
+	flex: 1;
+	margin-top: calc(-1 * var(--pady));
+}
+@media screen and (min-aspect-ratio: 1/1) {
+	.lost .thumb {
+		flex: 60vh;
+	}
+}
+/* Mr. Monkey */
+#mrmonkey {
+	display: block;
+	width: auto;
+	height: calc(45vh + (1.5 * var(--pady)));
+	margin-top: calc(-1.5 * var(--pady));
+	pointer-events: none;
+}
+@media screen and (min-aspect-ratio: 1/1) {
+	#mrmonkey {
+		height: calc(65vh + var(--pady));
+	}
+}
+/* Background */
+#lost {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	pointer-events: none;
+}
+#lost h2 {
+	position: relative;
+	z-index: 1;
+	width: 100vw;
+	height: 38vh;
+	line-height: 38vh;
+	margin: 0;
+	padding: 0;
+	color: #fcfcfc;
+	font-size: 60vh;
+	font-weight: 800;
+	letter-spacing: -1.5rem;
+	white-space: nowrap;
+	transform-origin: center;
+	transform: rotate(-179deg);
+}
+#lost h2:nth-child(even) {
+	transform: rotate(-181deg);
+}
+#lost h2:nth-child(2) {
+	z-index: 2;
+	color: #f9f9f9;
+}
+#lost h2:nth-child(3) {
+	z-index: 3;
+	color: #f6f6f6;
+}
+#lost h2:nth-child(4) {
+	z-index: 4;
+	color: #f3f3f3;
+}
+#lost h2:nth-child(5) {
+	z-index: 5;
+	color: #eee;
+}
+#lost h2 span {
+	position: absolute;
+}
+#lost h2 span i {
+	font-style: normal;
+	font-weight: 900;
+	padding: 0 2vw;
+}
+.dark #lost h2 {
+	color: #030303;
+}
+.dark #lost h2:nth-child(2) {
+	color: #060606;
+}
+.dark #lost h2:nth-child(3) {
+	color: #090909;
+}
+.dark #lost h2:nth-child(4) {
+	color: #0c0c0c;
+}
+.dark #lost h2:nth-child(5) {
+	color: #0f0f0f;
+}
+/* Text */
+#nomokeybusiness {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+#nomokeybusiness h1,
+#nomokeybusiness h4 {
+	position: relative;
+}
+#nomokeybusiness h1 {
+	margin-bottom: var(--padm);
+}
+#nomokeybusiness dl,
+#nomokeybusiness dt {
+	pointer-events: none;
+}
+#nomokeybusiness a {
+	position: relative;
+	display: inline-block;
+	clear: both;
+	padding: 0 10px;
+	margin: 10px -10px 0;
+	white-space: nowrap;
+}
+#nomokeybusiness a:after {
+	content: "";
+	display: inline-block;
+	padding: 0;
+	color: var(--black);
+	width: 50px;
+	height: 10px;
+	margin-left: 10px;
+	background: url(../img/arrow.svg) no-repeat 100% 50%;
+}
+.dark #nomokeybusiness a:after {
+	background-image: url(../img/arrow-white.svg);
+}
+.dark #nomokeybusiness a:hover:after {
+	background-image: url(../img/arrow.svg);
+}
+#nomokeybusiness dl {
+	display: inline;
+}
+#nomokeybusiness dt {
+	display: inline-block;
+}
+@media screen and (min-aspect-ratio: 1/1) {
+	#nomokeybusiness {
+		align-items: center;
+	}
+	#nomokeybusiness h1 {
+		margin-bottom: 0;
+	}
+	#nomokeybusiness h1,
+	#nomokeybusiness h4 {
+		white-space: nowrap;
+	}
+	#nomokeybusiness h1:after {
+		content: "";
+		position: absolute;
+		display: block;
+		z-index: -1;
+		left: -.5vw;
+		right: -.5vw;
+		top: initial;
+		bottom: 0;
+		height: 1.5vh;
+		border-radius: 1.5vh;
+		background-color: var(--yellow);
+		transition: background-color 1s ease;
+	}
+	#nomokeybusiness p {
+		max-width: 600px;
+		text-align: center;
+	}
+	#nomokeybusiness a {
+		clear: initial;
+		padding: 0 10px;
+		margin: 0;
+	}
+}
+@media screen and (max-aspect-ratio: 4/1) {
+	#lost h2 {
+		height: 30vh;
+		line-height: 30vh;
+		font-size: 50vh;
+	}
+}
+@media screen and (max-aspect-ratio: 3/1) {
+	#lost h2 {
+		height: 22vh;
+		line-height: 22vh;
+		font-size: 44vh;
+	}
+}
+@media screen and (max-aspect-ratio: 2/1) {
+	#lost h2 {
+		height: 21vh;
+		line-height: 21vh;
+		font-size: 41vh;
+	}
+}
+@media screen and (max-aspect-ratio: 3/2) {
+	#lost h2 {
+		height: 20vh;
+		line-height: 20vh;
+		font-size: 40vh;
+	}
+}
+@media screen and (max-aspect-ratio: 4/3) {
+	#lost h2 {
+		height: 18vh;
+		line-height: 18vh;
+		font-size: 38vh;
+	}
+}
+@media screen and (max-aspect-ratio: 1/1) {
+	#lost h2 {
+		height: 20vw;
+		line-height: 20vw;
+		font-size: 38vw;
+	}
+}
+@media screen and (max-aspect-ratio: 3/4) {
+	#lost h2 {
+		height: 25vw;
+		line-height: 25vw;
+		font-size: 45vw;
+	}
+}
+@media screen and (max-aspect-ratio: 2/3) {
+	#lost h2 {
+		height: 30vw;
+		line-height: 30vw;
+		font-size: 52vw;
+	}
+}
+@media screen and (max-aspect-ratio: 1/2) {
+	#lost h2 {
+		height: 40vw;
+		line-height: 40vw;
+		font-size: 68vw;
+	}
+}

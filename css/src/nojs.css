@@ -1,0 +1,30 @@
+/* For those who disable js */
+.no-js .imuiux,
+.no-js .follow,
+.no-js .us,
+.no-js .know,
+.no-js .mrgoat {
+	position: relative;
+	pointer-events: auto;
+}
+.no-js #permission,
+.no-js .grant,
+.no-js .igstage .scrollto {
+	display: none;
+}
+#nojs {
+	display: none;
+}
+.no-js #nojs {
+	display: flex;
+}
+#nojs {
+	background: url(../img/honocoroko.jpg) center top  no-repeat;
+	background-size: cover;
+}
+#nojs .text {
+	text-align: center;
+	background-color: var(--white);
+	max-width: 300px;
+	padding: var(--padl);
+}
