@@ -5,8 +5,8 @@
 	$acc_url = "$base_url/OAuth/access_token";
 	$api_url = "$base_url/APP";
 
-	$conskey = 'qrMzkjPRRmaM';
-	$conssec = 'HMQ7W2gkzECcY753BG7h4f9LWDrf1LK3';
+	$conskey = 'appkey';
+	$conssec = 'appsecret';
 
 	function debug($str) {
 		print("<pre>");
