@@ -1,8 +1,8 @@
-## What is this?
+# What is this?
 
 This is year end statistics for Plurk. Yes, people still using Plurk.
 
-I made this in my spare time to see my own year end statistics for my Plurk
+I made this in my spare time to see my own year end statistics for my Plurk timeline.
 
 ## What should I do first?
 
@@ -29,4 +29,8 @@ Yes, sure. And my profile is public so you can either [follow or friend me](http
 
 ## I like this, can I give you something?
 
-Abselutely, you can either give this repo a star, follow it, or better you can send me some Plurk coins or [buy me an ice cream](https://buymeacoffee.com/dwaan)
+Abselutely, you can either give this repo a star, watch it, or better, you can send me some Plurk coins or [buy me an ice cream](https://buymeacoffee.com/dwaan).
+
+## Where can I try this without cloning this repo?
+
+[You can visit my website](https://dwaan.com/replurk2020).
