@@ -25,8 +25,8 @@ Sure, you can fork this and make some pull request
 
 ## Can I be friend with you in Plurk?
 
-Yes, sure. And my profile is public so you can either follow or friend me.
+Yes, sure. And my profile is public so you can either [follow or friend me](https://plurk.com/dwan).
 
 ## I like this, can I give you something?
 
-Abselutely, you can either give this repo a star, follow it, or better you can send me some Plurk coins or [buy me an ice cream](https://www.buymeacoffee.com/dwaan)
+Abselutely, you can either give this repo a star, follow it, or better you can send me some Plurk coins or [buy me an ice cream](https://buymeacoffee.com/dwaan)
